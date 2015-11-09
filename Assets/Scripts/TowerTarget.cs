@@ -14,7 +14,9 @@ public class TowerTarget : MonoBehaviour {
 	void Update () {
 		Collider2D col = Physics2D.OverlapCircle (this.transform.position, _targetingRadius, _layerMask);
 		//_target = col;
-		_target = col.gameObject.transform;
+		if (col) {
+			_target = col.gameObject.transform;
+		}
 		//Debug.Log (col);
 	}
 

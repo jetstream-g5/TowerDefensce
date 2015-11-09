@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 [RequireComponent (typeof(TowerTarget))]
@@ -22,20 +22,13 @@ public class TowerShoot : MonoBehaviour {
 	
 	}
 
-	IEnumerator ReloadTimer(float reloadTime){
-		yield return new WaitForSeconds (reloadTime);
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		target = _towerTarget._target;
-		if (target != null) {
-			//InvokeRepeating("Shoot", 1f, reloadTime);
-			if(Time.time >= nextFireTime){
-				Shoot();
-			}
+		if (target) {
+			RotateTurret();
+			Shoot();
 		}
-		Debug.Log (target);
 	}
 
 	void RotateTurret(){
@@ -43,7 +36,11 @@ public class TowerShoot : MonoBehaviour {
 	}
 
 	void Shoot(){
-		nextFireTime = Time.time + reloadTime;
-		Instantiate (bullet, this.transform.position, rotation);
+		nextFireTime += Time.deltaTime;
+
+		if (nextFireTime >= reloadTime) {
+			Instantiate (bullet, this.transform.position, rotation);
+			nextFireTime = 0;
+		}
 	}
 }
