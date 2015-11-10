@@ -16,7 +16,8 @@ public class TowerTarget : MonoBehaviour {
 		//_target = col;
 		if (col) {
 			_target = col.gameObject.transform;
-		}
+		} else
+			_target = null;
 		//Debug.Log (col);
 	}
 
