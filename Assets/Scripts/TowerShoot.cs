@@ -30,17 +30,16 @@ public class TowerShoot : MonoBehaviour {
 	void Update () {
 			target = _towerTarget._target;
 		if (target) {
-			this.transform.rotation = rotation;
+			turret.rotation = rotation;
 			RotateTurret ();
 			Shoot ();
 		} else{
-			ResetTurretRotation();
+			//ResetTurretRotation();
 		}
 	}
 
 	void ResetTurretRotation(){
-		turretPos.z = 0;
-		Debug.Log("ayy lmao");
+		transform.rotation = Quaternion.identity;
 	}
 
 	void RotateTurret(){
@@ -54,7 +53,7 @@ public class TowerShoot : MonoBehaviour {
 		nextFireTime += Time.deltaTime;
 
 		if (nextFireTime >= reloadTime) {
-			Instantiate (bullet, this.transform.position, rotation);
+			Instantiate (bullet, transform.position, rotation);
 			nextFireTime = 0;
 		}
 	}

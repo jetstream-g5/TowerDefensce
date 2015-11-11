@@ -1,10 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Bullet : MonoBehaviour {
 
 	[SerializeField]private float bulletSpeed;
 	private Rigidbody2D rb2d;
+	[SerializeField]private GameObject turret;
 	// Use this for initialization
 	void Start () {
 		rb2d = GetComponent<Rigidbody2D> ();
@@ -17,7 +18,7 @@ public class Bullet : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		//transform.Translate (transform.forward * bulletSpeed * Time.deltaTime);
-		rb2d.velocity = new Vector2 (bulletSpeed, 0f);
+		transform.Translate (turret.transform.up * bulletSpeed * Time.deltaTime);
+		//rb2d.velocity = new Vector2 (bulletSpeed, 0f);
 	}
 }
