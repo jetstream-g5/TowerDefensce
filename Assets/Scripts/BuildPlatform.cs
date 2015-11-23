@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 
 	public class BuildPlatform : MonoBehaviour {
 
-
+	public static bool buyTurret = false;
 	[SerializeField] private GameObject Theonator;
 
 	// Use this for initialization
@@ -14,13 +14,14 @@ using System.Collections;
 	
 	// Update is called once per frame
 	void Update () {
-	
+		Debug.Log (buyTurret);
 	}
 
 	void OnMouseDown() {
-		Debug.Log("Hey macarena");
-		Instantiate(Theonator, this.transform.position, this.transform.rotation);
-		Destroy(this.gameObject);
+		if (buyTurret == true) {
+			Instantiate (Theonator, this.transform.position, this.transform.rotation);
+			Destroy (this.gameObject);
+		}
 	}
 
 
