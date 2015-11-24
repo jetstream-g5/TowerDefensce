@@ -1,0 +1,606 @@
+fileFormatVersion: 2
+guid: 524d10d470346474aad7ea7c9533fc0c
+timeCreated: 1448320211
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fly_Front_0
+    21300002: Fly_Front_1
+    21300004: Fly_Front_2
+    21300006: Fly_Front_3
+    21300008: Fly_Front_4
+    21300010: Fly_Front_5
+    21300012: Fly_Front_6
+    21300014: Fly_Front_7
+    21300016: Fly_Front_8
+    21300018: Fly_Front_9
+    21300020: Fly_Front_10
+    21300022: Fly_Front_11
+    21300024: Fly_Front_12
+    21300026: Fly_Front_13
+    21300028: Fly_Front_14
+    21300030: Fly_Front_15
+    21300032: Fly_Front_16
+    21300034: Fly_Front_17
+    21300036: Fly_Front_18
+    21300038: Fly_Front_19
+    21300040: Fly_Front_20
+    21300042: Fly_Front_21
+    21300044: Fly_Front_22
+    21300046: Fly_Front_23
+    21300048: Fly_Front_24
+    21300050: Fly_Front_25
+    21300052: Fly_Front_26
+    21300054: Fly_Front_27
+    21300056: Fly_Front_28
+    21300058: Fly_Front_29
+    21300060: Fly_Front_30
+    21300062: Fly_Front_31
+    21300064: Fly_Front_32
+    21300066: Fly_Front_33
+    21300068: Fly_Front_34
+    21300070: Fly_Front_35
+    21300072: Fly_Front_36
+    21300074: Fly_Front_37
+    21300076: Fly_Front_38
+    21300078: Fly_Front_39
+    21300080: Fly_Front_40
+    21300082: Fly_Front_41
+    21300084: Fly_Front_42
+    21300086: Fly_Front_43
+    21300088: Fly_Front_44
+    21300090: Fly_Front_45
+    21300092: Fly_Front_46
+    21300094: Fly_Front_47
+    21300096: Fly_Front_48
+    21300098: Fly_Front_49
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Fly_Front_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 453
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_2
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 454
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 454
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 453
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 438
+        width: 88
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_6
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 438
+        width: 90
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_7
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 439
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_8
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 439
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_9
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 438
+        width: 89
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 376
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_11
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 376
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_12
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 376
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 376
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_14
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 377
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 88
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 362
+        width: 90
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 362
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_18
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 362
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_19
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 362
+        width: 89
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_21
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 300
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_22
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 300
+        width: 93
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_23
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 300
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 301
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_26
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 287
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_27
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 287
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_28
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 287
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_29
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 287
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_31
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 225
+        width: 92
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_32
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 225
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_33
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 225
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_34
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 225
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 212
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_36
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 211
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_37
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 211
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_38
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 211
+        width: 91
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_39
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 211
+        width: 88
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 149
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_41
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 150
+        width: 90
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_42
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 150
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 149
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_44
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 149
+        width: 88
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 88
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 135
+        width: 90
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_47
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 135
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_48
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 134
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Fly_Front_49
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 134
+        width: 89
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
